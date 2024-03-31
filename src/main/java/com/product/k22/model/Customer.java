@@ -16,6 +16,8 @@ public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+//    @Column(name = "full_name",length = 20,nullable = false)
     private String name;
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
