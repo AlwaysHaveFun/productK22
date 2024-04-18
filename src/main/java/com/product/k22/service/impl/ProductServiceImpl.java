@@ -22,6 +22,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Map<String , Object>> getListDetail() {
+
         return productRepository.getlist();
     }
 
